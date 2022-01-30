@@ -19,5 +19,5 @@ deploy:
   bucket_path: "app32" ### S3 folder name under S3 bucket above
   on:
     branch: main
-  access_key_id: "AKIAXI3VTRDVCOEHDNNS"
-  secret_access_key: "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"
+  access_key_id: "$AWS_ACCESS_KEY"
+  secret_access_key: "$AWS_SECRET_KEY"

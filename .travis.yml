@@ -15,7 +15,7 @@ deploy:
   app: "sample-docker-react" ### Your EB App name
   env: "Sampledockerreact-env" ### Your EB App environment name
   bucket_name: "elasticbeanstalk-ap-southeast-2-500073466090" ### S3 bucket name
-  bucket_path: "app32" ### S3 folder name under S3 bucket above
+  bucket_path: "app22" ### S3 folder name under S3 bucket above
   on:
     branch: main
   access_key_id: "$AWS_ACCESS_KEY"
